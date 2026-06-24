@@ -1,0 +1,38 @@
+body{
+background:#f3f4f6;
+}
+
+.stat-card{
+
+text-align:center;
+
+padding:25px;
+
+border:none;
+
+box-shadow:
+0px 2px 10px
+rgba(0,0,0,0.15);
+
+border-radius:12px;
+}
+
+.stat-card h1{
+
+font-size:45px;
+
+font-weight:bold;
+
+color:#2563eb;
+}
+
+.card{
+
+border:none;
+
+border-radius:12px;
+
+box-shadow:
+0px 2px 10px
+rgba(0,0,0,0.1);
+}
