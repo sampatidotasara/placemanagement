@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intern Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Intern Management System</h1>
+
+<div class="form">
+
+    <input
+    type="text"
+    id="name"
+    placeholder="Enter Name">
+
+    <input
+    type="email"
+    id="email"
+    placeholder="Enter Email">
+
+    <input
+    type="text"
+    id="college"
+    placeholder="Enter College">
+
+    <button onclick="addIntern()">
+        Add Intern
+    </button>
+
+</div>
+
+<button onclick="loadInterns()">
+    Load Interns
+</button>
+
+<div id="internContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
